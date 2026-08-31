@@ -16,7 +16,7 @@
 
 ## Checklist
 
-- [ ] I have read [CONTRIBUTING.md](https://github.com/zunialab/.github/blob/main/CONTRIBUTING.md)
+- [ ] I have read [CONTRIBUTING.md](https://github.com/Zunia-Lab/.github/blob/main/CONTRIBUTING.md)
 - [ ] My code follows the repository style
 - [ ] I have updated documentation if needed
 - [ ] I have run validation/tests locally (if applicable)

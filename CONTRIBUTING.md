@@ -1,13 +1,13 @@
 # Contributing to Zunia Lab
 
-Thank you for your interest in contributing to Zunia. This document applies to all repositories under the [zunialab](https://github.com/zunialab) organization.
+Thank you for your interest in contributing to Zunia. This document applies to all repositories under the [zunialab](https://github.com/Zunia-Lab) organization.
 
 ## Before you start
 
 1. Read the repository-specific README for setup instructions.
 2. Check existing issues and pull requests to avoid duplicate work.
-3. For chain additions, use [zunia-chain-registry](https://github.com/zunialab/zunia-chain-registry).
-4. For documentation changes, prefer [zunia-docs](https://github.com/zunialab/zunia-docs).
+3. For chain additions, use [zunia-chain-registry](https://github.com/Zunia-Lab/zunia-chain-registry).
+4. For documentation changes, prefer [zunia-docs](https://github.com/Zunia-Lab/zunia-docs).
 
 ## How to contribute
 
@@ -37,11 +37,11 @@ Open a feature request issue describing the problem, proposed solution, and alte
 
 ### Chain registry contributions
 
-See [zunia-chain-registry/CONTRIBUTING.md](https://github.com/zunialab/zunia-chain-registry/blob/main/CONTRIBUTING.md) for validation rules, image requirements, and PR format.
+See [zunia-chain-registry/CONTRIBUTING.md](https://github.com/Zunia-Lab/zunia-chain-registry/blob/main/CONTRIBUTING.md) for validation rules, image requirements, and PR format.
 
 ### Brand assets
 
-Do not modify logos or colors without approval. Use assets from [zunia-brand](https://github.com/zunialab/zunia-brand). For brand questions, email [hello@zuniawallet.com](mailto:hello@zuniawallet.com).
+Do not modify logos or colors without approval. Use assets from [zunia-brand](https://github.com/Zunia-Lab/zunia-brand). For brand questions, email [hello@zuniawallet.com](mailto:hello@zuniawallet.com).
 
 ## Code of conduct
 
