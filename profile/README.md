@@ -26,7 +26,7 @@
 |------------|-------------|--------|
 | [zunia-website](https://github.com/Zunia-Lab/zunia-website) | Marketing site at [zuniawallet.com](https://zuniawallet.com) | In development |
 | [zunia-extension](https://github.com/Zunia-Lab/zunia-extension) | Browser extension (Chrome, Firefox, Edge, Safari) | In development |
-| [zunia-mobile](https://github.com/Zunia-Lab/zunia-mobile) | iOS and Android wallet (React Native + Expo) | In development |
+| [zunia-mobile](https://github.com/Zunia-Lab/zunia-mobile) | iOS and Android wallet (Flutter) | In development |
 | [zunia-dashboard](https://github.com/Zunia-Lab/zunia-dashboard) | Web portfolio at wallet.zuniawallet.com | In development |
 | [zunia-docs](https://github.com/Zunia-Lab/zunia-docs) | Documentation at [docs.zuniawallet.com](https://docs.zuniawallet.com) | In development |
 | [zunia-chain-registry](https://github.com/Zunia-Lab/zunia-chain-registry) | Community chain metadata for Zunia wallet | Active |
