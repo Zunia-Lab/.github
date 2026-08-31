@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a bug in a Zunia product
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - zunia-extension
+        - zunia-mobile
+        - zunia-dashboard
+        - zunia-website
+        - zunia-docs
+        - zunia-chain-registry
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: e.g. extension 0.1.0, mobile 1.0.0 (build 42)
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: OS, browser, device model
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Do not include seed phrases, private keys, or passwords.
