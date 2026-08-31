@@ -14,6 +14,7 @@
   <a href="https://docs.zuniawallet.com">Docs</a> ·
   <a href="https://github.com/Zunia-Lab/zunia-extension">Extension</a> ·
   <a href="https://github.com/Zunia-Lab/zunia-mobile">Mobile</a> ·
+  <a href="https://github.com/Zunia-Lab/zunia-sdk">SDK</a> ·
   <a href="https://github.com/Zunia-Lab/zunia-chain-registry">Chain Registry</a> ·
   <a href="https://github.com/Zunia-Lab/zunia-brand">Brand</a>
 </p>
@@ -32,6 +33,9 @@
 | [zunia-chain-registry](https://github.com/Zunia-Lab/zunia-chain-registry) | Community chain metadata for Zunia wallet | Active |
 | [zunia-brand](https://github.com/Zunia-Lab/zunia-brand) | Logos, colors, typography, and brand guidelines | v1.0.0 |
 | [zunia-ui](https://github.com/Zunia-Lab/zunia-ui) | Shared UI components (web, extension, mobile) | In development |
+| [zunia-sdk](https://github.com/Zunia-Lab/zunia-sdk) | Developer SDKs for web, React, and Flutter integrations | In development |
+| [zunia-core](https://github.com/Zunia-Lab/zunia-core) | Wallet kernel (keys, signing) | Scaffold |
+| [zunia-backend](https://github.com/Zunia-Lab/zunia-backend) | Notifications / API | Scaffold |
 
 ## Built for Cosmos / IBC
 

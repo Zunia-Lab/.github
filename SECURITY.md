@@ -7,12 +7,14 @@
 | zunia-extension | Latest release on Chrome Web Store (when published) |
 | zunia-mobile | Latest release on App Store / Play Store (when published) |
 | zunia-chain-registry | `main` branch |
+| zunia-core | Tagged releases (when published) |
+| zunia-backend | Production API (when deployed) |
 
 ## Reporting a vulnerability
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Email [hello@zuniawallet.com](mailto:hello@zuniawallet.com) with:
+Email [security@zuniawallet.com](mailto:security@zuniawallet.com) with:
 
 - Description of the vulnerability
 - Steps to reproduce
@@ -20,15 +22,19 @@ Email [hello@zuniawallet.com](mailto:hello@zuniawallet.com) with:
 - Affected repository and version
 - Your contact information (optional, for follow-up)
 
+PGP key URL will be listed in `https://zuniawallet.com/.well-known/security.txt` when issued.
+
 We aim to acknowledge reports within 72 hours and provide a status update within 7 business days.
+
+General inquiries: [hello@zuniawallet.com](mailto:hello@zuniawallet.com).
 
 ## Scope
 
 In scope:
 
-- Zunia browser extension, mobile app, and web dashboard
+- Zunia browser extension, mobile app, web dashboard, and backend
 - Key handling, signing flows, and transaction preview
-- `window.zunia` provider API
+- `window.zunia` provider API and `@zunialab/*` SDKs
 - Official releases and infrastructure under zuniawallet.com
 
 Out of scope:
