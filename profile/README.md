@@ -31,6 +31,7 @@
 | [zunia-docs](https://github.com/Zunia-Lab/zunia-docs) | Documentation at [docs.zuniawallet.com](https://docs.zuniawallet.com) | In development |
 | [zunia-chain-registry](https://github.com/Zunia-Lab/zunia-chain-registry) | Community chain metadata for Zunia wallet | Active |
 | [zunia-brand](https://github.com/Zunia-Lab/zunia-brand) | Logos, colors, typography, and brand guidelines | v1.0.0 |
+| [zunia-ui](https://github.com/Zunia-Lab/zunia-ui) | Shared UI components (web, extension, mobile) | In development |
 
 ## Built for Cosmos / IBC
 
