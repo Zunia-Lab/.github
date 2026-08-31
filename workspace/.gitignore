@@ -1,0 +1,13 @@
+# Root workspace hygiene (polyrepo children have their own remotes)
+.DS_Store
+**/.DS_Store
+*.log
+.env
+.env.local
+node_modules/
+.turbo/
+**/dist/
+**/.idea/
+**/*.iml
+**/build/
+.vercel/
