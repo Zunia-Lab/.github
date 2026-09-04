@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Zunia-Lab/zunia-brand/main/png/lockup/zunia-lockup-horizontal-reversed-2048.png" alt="zunia" width="320" />
+  <img src="https://raw.githubusercontent.com/Zunia-Lab/zunia-brand/main/png/logo/zunia-logo-on-dark-800.png" alt="Zunia" width="320" />
 </p>
 
 <h1 align="center">Zunia Lab</h1>
@@ -31,7 +31,7 @@
 | [zunia-dashboard](https://github.com/Zunia-Lab/zunia-dashboard) | Web portfolio at wallet.zuniawallet.com | In development |
 | [zunia-docs](https://github.com/Zunia-Lab/zunia-docs) | Documentation at [docs.zuniawallet.com](https://docs.zuniawallet.com) | In development |
 | [zunia-chain-registry](https://github.com/Zunia-Lab/zunia-chain-registry) | Community chain metadata for Zunia wallet | Active |
-| [zunia-brand](https://github.com/Zunia-Lab/zunia-brand) | Logos, colors, typography, and brand guidelines | v1.0.0 |
+| [zunia-brand](https://github.com/Zunia-Lab/zunia-brand) | Logos, colors, typography, and brand guidelines | v2.0 |
 | [zunia-ui](https://github.com/Zunia-Lab/zunia-ui) | Shared UI components (web, extension, mobile) | In development |
 | [zunia-sdk](https://github.com/Zunia-Lab/zunia-sdk) | Developer SDKs for web, React, and Flutter integrations | In development |
 | [zunia-core](https://github.com/Zunia-Lab/zunia-core) | Wallet kernel (keys, signing) | Scaffold |
