@@ -34,7 +34,7 @@ This Code of Conduct applies within all community spaces and when an individual 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to [hello@zuniawallet.com](mailto:hello@zuniawallet.com). All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to [hello@zunialab.com](mailto:hello@zunialab.com). All complaints will be reviewed and investigated promptly and fairly.
 
 ## Attribution
 

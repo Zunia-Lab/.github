@@ -153,7 +153,7 @@ Config mirrors (not yet enforced in UI code):
 - [ ] Third-party security audit of the wallet kernel + signing flow **before** mainnet marketing push. Budget 4–8 weeks lead time.
 - [ ] Cryptography test vectors: BIP-39/32/44 official vectors, per-chain address derivation vectors, signature round-trip tests, encryption envelope tests. Placeholder dir: `zunia-core/tests/vectors/`.
 - [ ] Fuzzing on tx decoding and registry JSON parsing.
-- [x] `security.txt` on the website; contact `security@zuniawallet.com` (mailbox + PGP still to provision).
+- [x] `security.txt` on the website; contact `security@zunialab.com` (mailbox + PGP still to provision).
 - [x] Incident response **draft** runbook in `zunia-security/runbooks/`.
 
 ---
@@ -265,7 +265,7 @@ This is a **fundamentally different custody model** from a seed-phrase wallet. D
 ### 6.6 Repo hygiene
 - [x] Root `.gitignore` for `.DS_Store`, build artifacts.
 - [x] `.editorconfig` propagated.
-- [x] SECURITY.md → `security@zuniawallet.com`.
+- [x] SECURITY.md → `security@zunialab.com`.
 - [ ] Pre-commit hooks (lefthook/husky) per repo.
 - [ ] Docs: mark roadmap claims as roadmap where still aspirational.
 - Polyrepo retained for now; monorepo ADR still open (§2.2 #8).

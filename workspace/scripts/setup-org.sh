@@ -14,8 +14,8 @@ gh api "orgs/${ORG}" -X PATCH \
   -f name="Zunia Lab" \
   -f description="Multi-chain Cosmos wallet. Browser extension, mobile app, IBC-native. Built by Zunia Lab." \
   -f company="Zunia Lab" \
-  -f blog="https://zuniawallet.com" \
-  -f email="hello@zuniawallet.com" \
+  -f blog="https://zunialab.com" \
+  -f email="hello@zunialab.com" \
   -f location="Remote" \
   -F default_repository_permission=read \
   -F members_can_create_repositories=false

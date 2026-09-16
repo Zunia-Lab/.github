@@ -1,18 +1,18 @@
 # Deployment and DNS
 
-Guide for wiring `zuniawallet.com` to GitHub org products and Vercel.
+Guide for wiring `zunialab.com` to GitHub org products and Vercel.
 
 ## Domains
 
 | Host | Target | Project |
 |------|--------|---------|
-| `zuniawallet.com` | Vercel | `zunia-website` |
-| `www.zuniawallet.com` | Redirect → apex | `zunia-website` |
-| `docs.zuniawallet.com` | Vercel | `zunia-docs` |
-| `wallet.zuniawallet.com` | Vercel | `zunia-dashboard` |
-| `api.zuniawallet.com` | Backend host | `zunia-backend` / `zunia-infra` |
-| `link.zuniawallet.com` | Universal / App Links | `zunia-website` (or CDN) |
-| `status.zuniawallet.com` | Status page | TBD |
+| `zunialab.com` | Vercel | `zunia-website` |
+| `www.zunialab.com` | Redirect → apex | `zunia-website` |
+| `docs.zunialab.com` | Vercel | `zunia-docs` |
+| `wallet.zunialab.com` | Vercel | `zunia-dashboard` |
+| `api.zunialab.com` | Backend host | `zunia-backend` / `zunia-infra` |
+| `link.zunialab.com` | Universal / App Links | `zunia-website` (or CDN) |
+| `status.zunialab.com` | Status page | TBD |
 
 ## DNS records (Cloudflare / registrar)
 
@@ -37,10 +37,10 @@ Use the exact values Vercel shows for your project.
 
 | Address | Action |
 |---------|--------|
-| `hello@zuniawallet.com` | General |
-| `security@zuniawallet.com` | Vulnerability reports (required) |
-| `support@zuniawallet.com` | User support |
-| `press@zuniawallet.com` | Press |
+| `hello@zunialab.com` | General |
+| `security@zunialab.com` | Vulnerability reports (required) |
+| `support@zunialab.com` | User support |
+| `press@zunialab.com` | Press |
 
 MX / TXT records depend on your email provider. Keep SPF/DKIM configured; aim for DMARC `p=reject` eventually.
 
@@ -54,7 +54,7 @@ Served from `zunia-website/public/.well-known/`:
 
 ## GitHub org domain verification
 
-1. Org Settings → Verified domains → Add `zuniawallet.com`
+1. Org Settings → Verified domains → Add `zunialab.com`
 2. Add the TXT record GitHub provides
 3. Click Verify
 

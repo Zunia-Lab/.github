@@ -41,7 +41,7 @@ See [zunia-chain-registry/CONTRIBUTING.md](https://github.com/Zunia-Lab/zunia-ch
 
 ### Brand assets
 
-Do not modify logos or colors without approval. Use assets from [zunia-brand](https://github.com/Zunia-Lab/zunia-brand). For brand questions, email [hello@zuniawallet.com](mailto:hello@zuniawallet.com).
+Do not modify logos or colors without approval. Use assets from [zunia-brand](https://github.com/Zunia-Lab/zunia-brand). For brand questions, email [hello@zunialab.com](mailto:hello@zunialab.com).
 
 ## Code of conduct
 

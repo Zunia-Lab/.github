@@ -3,7 +3,7 @@
 Local workspace for the [Zunia Lab](https://github.com/Zunia-Lab) organization.
 
 **Product:** Multi-chain Cosmos wallet (browser extension + mobile + web).  
-**Domain:** [zuniawallet.com](https://zuniawallet.com) · **Email:** hello@zuniawallet.com · **Security:** security@zuniawallet.com
+**Domain:** [zunialab.com](https://zunialab.com) · **Email:** hello@zunialab.com · **Security:** security@zunialab.com
 
 ## Repositories
 
@@ -43,4 +43,4 @@ Pre-development gate: [PRE-DEVELOPMENT.md](./PRE-DEVELOPMENT.md).
 
 ## Contact
 
-hello@zuniawallet.com · security@zuniawallet.com
+hello@zunialab.com · security@zunialab.com

@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://zuniawallet.com">Website</a> ·
-  <a href="https://docs.zuniawallet.com">Docs</a> ·
+  <a href="https://zunialab.com">Website</a> ·
+  <a href="https://docs.zunialab.com">Docs</a> ·
   <a href="https://github.com/Zunia-Lab/zunia-extension">Extension</a> ·
   <a href="https://github.com/Zunia-Lab/zunia-mobile">Mobile</a> ·
   <a href="https://github.com/Zunia-Lab/zunia-sdk">SDK</a> ·
@@ -25,11 +25,11 @@
 
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [zunia-website](https://github.com/Zunia-Lab/zunia-website) | Marketing site at [zuniawallet.com](https://zuniawallet.com) | In development |
+| [zunia-website](https://github.com/Zunia-Lab/zunia-website) | Marketing site at [zunialab.com](https://zunialab.com) | In development |
 | [zunia-extension](https://github.com/Zunia-Lab/zunia-extension) | Browser extension (Chrome, Firefox, Edge, Safari) | In development |
 | [zunia-mobile](https://github.com/Zunia-Lab/zunia-mobile) | iOS and Android wallet (Flutter) | In development |
-| [zunia-dashboard](https://github.com/Zunia-Lab/zunia-dashboard) | Web portfolio at wallet.zuniawallet.com | In development |
-| [zunia-docs](https://github.com/Zunia-Lab/zunia-docs) | Documentation at [docs.zuniawallet.com](https://docs.zuniawallet.com) | In development |
+| [zunia-dashboard](https://github.com/Zunia-Lab/zunia-dashboard) | Web portfolio at wallet.zunialab.com | In development |
+| [zunia-docs](https://github.com/Zunia-Lab/zunia-docs) | Documentation at [docs.zunialab.com](https://docs.zunialab.com) | In development |
 | [zunia-chain-registry](https://github.com/Zunia-Lab/zunia-chain-registry) | Community chain metadata for Zunia wallet | Active |
 | [zunia-brand](https://github.com/Zunia-Lab/zunia-brand) | Logos, colors, typography, and brand guidelines | v2.0 |
 | [zunia-ui](https://github.com/Zunia-Lab/zunia-ui) | Shared UI components (web, extension, mobile) | In development |
@@ -43,8 +43,8 @@ Zunia supports the standard Cosmos wallet interface, native IBC transfers, Walle
 
 ## Contact
 
-- Website: [zuniawallet.com](https://zuniawallet.com)
-- Email: [hello@zuniawallet.com](mailto:hello@zuniawallet.com)
+- Website: [zunialab.com](https://zunialab.com)
+- Email: [hello@zunialab.com](mailto:hello@zunialab.com)
 - Security: see [SECURITY.md](https://github.com/Zunia-Lab/.github/blob/main/SECURITY.md)
 
 ## Contributing
