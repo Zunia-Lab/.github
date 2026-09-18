@@ -272,7 +272,7 @@ This is a **fundamentally different custody model** from a seed-phrase wallet. D
 
 ### 6.7 Infrastructure & accounts to provision
 - [ ] Domain + DNS (documented in `DEPLOY.md`, not yet executed): apex, `www`, `docs`, `wallet`, plus `api.`, `link.`, `status.`
-- [ ] `security@`, `support@`, `press@` mailboxes; SPF/DKIM/DMARC (`p=reject` eventually).
+- [ ] `security@`, `dev@`, `press@` mailboxes; SPF/DKIM/DMARC (`p=reject` eventually).
 - [x] `.well-known/apple-app-site-association` + `assetlinks.json` + `security.txt` on the website (replace TEAMID / SHA-256 / add PGP).
 - [ ] WalletConnect Cloud project ID (placeholder in `connect.yaml`).
 - [ ] Store accounts: Chrome Web Store ($5), Firefox AMO, Edge Add-ons, Apple Developer Program ($99/yr, org verification takes weeks — **start now**), Google Play ($25, + org verification).

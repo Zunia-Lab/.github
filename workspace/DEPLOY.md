@@ -39,7 +39,7 @@ Use the exact values Vercel shows for your project.
 |---------|--------|
 | `hello@zunialab.com` | General |
 | `security@zunialab.com` | Vulnerability reports (required) |
-| `support@zunialab.com` | User support |
+| `dev@zunialab.com` | User support |
 | `press@zunialab.com` | Press |
 
 MX / TXT records depend on your email provider. Keep SPF/DKIM configured; aim for DMARC `p=reject` eventually.
