@@ -1,37 +1,26 @@
 # Deployment and DNS
 
-Guide for wiring `zunialab.com` to GitHub org products and Vercel.
+Guide for wiring `zunialab.com`. Production is the Hetzner host behind Cloudflare.
 
 ## Domains
 
 | Host | Target | Project |
 |------|--------|---------|
-| `zunialab.com` | Vercel | `zunia-website` |
-| `www.zunialab.com` | Redirect → apex | `zunia-website` |
-| `docs.zunialab.com` | Vercel | `zunia-docs` |
-| `wallet.zunialab.com` | Vercel | `zunia-dashboard` |
-| `api.zunialab.com` | Backend host | `zunia-backend` / `zunia-infra` |
-| `link.zunialab.com` | Universal / App Links | `zunia-website` (or CDN) |
-| `status.zunialab.com` | Status page | TBD |
+| `zunialab.com` | Hetzner nginx → `127.0.0.1:3010` | `zunia-website` |
+| `www.zunialab.com` | Same vhost as the apex | `zunia-website` |
+| `docs.zunialab.com` | Hetzner nginx static root | `zunia-docs` |
+| `wallet.zunialab.com` | Hetzner nginx → `127.0.0.1:3012` | `zunia-dashboard` |
+| `api.zunialab.com` | Hetzner nginx → `127.0.0.1:8788` (WSS `/v1/connect/ws`) | `zunia-backend` |
+| `backend.zunialab.com` | Alias of `api` | `zunia-backend` |
+| `indexer.zunialab.com` | Hetzner nginx → `127.0.0.1:8787` | `zunia-indexer` |
+| `link.zunialab.com` | Same Next app as the apex | `zunia-website` |
+| `status.zunialab.com` | Static page on the same host | `zunia-infra` |
+
+Cloudflare proxies the zone (orange cloud), SSL mode Full (strict), WebSockets on. Origin TLS is one Let's Encrypt certificate (DNS-01). Server steps live in `zunia-infra` (`docs/hetzner.md`). Leave `mail.zunialab.com` on the mail host.
 
 ## DNS records (Cloudflare / registrar)
 
-After creating Vercel projects and adding domains in the Vercel dashboard:
-
-```
-# Apex (example; Vercel may ask for A instead of CNAME)
-A     @     76.76.21.21
-
-# Or ALIAS/ANAME if your DNS supports it
-CNAME www    cname.vercel-dns.com
-CNAME docs   cname.vercel-dns.com
-CNAME wallet cname.vercel-dns.com
-CNAME api    <backend-host>
-CNAME link   cname.vercel-dns.com
-CNAME status <status-provider>
-```
-
-Use the exact values Vercel shows for your project.
+Proxied A `65.108.104.223` and AAAA `2a01:4f9:6b:1c48::2` for `@`, `docs`, `wallet`, `api`, `backend`, `indexer`, `link`, and `status`. `www` is a proxied CNAME to the apex. Do not change MX or `mail`.
 
 ## Email
 
@@ -58,15 +47,9 @@ Served from `zunia-website/public/.well-known/`:
 2. Add the TXT record GitHub provides
 3. Click Verify
 
-## Vercel link (CLI)
+## Production host
 
-```bash
-cd zunia-website && vercel link && vercel --prod
-cd ../zunia-docs && vercel link && vercel --prod
-cd ../zunia-dashboard && vercel link && vercel --prod
-```
-
-Attach custom domains in each Vercel project → Settings → Domains.
+The public hostnames above are on the Hetzner box. Rebuild steps are in the `zunia-infra` repo (`docs/hetzner.md`). Vercel is not the production target for these domains.
 
 ## Accounts to provision (long lead time)
 
