@@ -15,12 +15,13 @@ Guide for wiring `zunialab.com`. Production is the Hetzner host behind Cloudflar
 | `indexer.zunialab.com` | Hetzner nginx → `127.0.0.1:8787` | `zunia-indexer` |
 | `link.zunialab.com` | Same Next app as the apex | `zunia-website` |
 | `status.zunialab.com` | Static page on the same host | `zunia-infra` |
+| `updates.zunialab.com` | Hetzner nginx → `127.0.0.1:3016` | `zunia-updates` |
 
 Cloudflare proxies the zone (orange cloud), SSL mode Full (strict), WebSockets on. Origin TLS is one Let's Encrypt certificate (DNS-01). Server steps live in `zunia-infra` (`docs/hetzner.md`). Leave `mail.zunialab.com` on the mail host.
 
 ## DNS records (Cloudflare / registrar)
 
-Proxied A `65.108.104.223` and AAAA `2a01:4f9:6b:1c48::2` for `@`, `docs`, `wallet`, `api`, `backend`, `indexer`, `link`, and `status`. `www` is a proxied CNAME to the apex. Do not change MX or `mail`.
+Proxied A `65.108.104.223` and AAAA `2a01:4f9:6b:1c48::2` for `@`, `docs`, `wallet`, `api`, `backend`, `indexer`, `link`, `status`, and `updates`. `www` is a proxied CNAME to the apex. Do not change MX or `mail`.
 
 ## Email
 
